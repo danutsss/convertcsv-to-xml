@@ -1,0 +1,17 @@
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\Debug\net6.0-windows\Convert CSV to XML.exe
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\Debug\net6.0-windows\Convert CSV to XML.deps.json
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\Debug\net6.0-windows\Convert CSV to XML.runtimeconfig.json
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\Debug\net6.0-windows\Convert CSV to XML.dll
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\Debug\net6.0-windows\Convert CSV to XML.pdb
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.csproj.AssemblyReference.cache
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert_CSV_to_XML.Form1.resources
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.csproj.GenerateResource.cache
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.GeneratedMSBuildEditorConfig.editorconfig
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.AssemblyInfoInputs.cache
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.AssemblyInfo.cs
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.csproj.CoreCompileInputs.cache
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.dll
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\refint\Convert CSV to XML.dll
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.pdb
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\Convert CSV to XML.genruntimeconfig.cache
+D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\Debug\net6.0-windows\ref\Convert CSV to XML.dll
