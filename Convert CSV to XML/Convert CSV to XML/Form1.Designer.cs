@@ -35,6 +35,7 @@
             this.csvGridView = new System.Windows.Forms.DataGridView();
             this.exportXML = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.csvGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,12 +83,15 @@
             // 
             this.csvGridView.AllowUserToAddRows = false;
             this.csvGridView.AllowUserToDeleteRows = false;
+            this.csvGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.csvGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.csvGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.csvGridView.Location = new System.Drawing.Point(12, 129);
+            this.csvGridView.Location = new System.Drawing.Point(12, 121);
             this.csvGridView.Name = "csvGridView";
             this.csvGridView.ReadOnly = true;
-            this.csvGridView.Size = new System.Drawing.Size(999, 492);
+            this.csvGridView.Size = new System.Drawing.Size(999, 500);
             this.csvGridView.TabIndex = 4;
             // 
             // exportXML
@@ -110,13 +114,24 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 121);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(999, 500);
+            this.flowLayoutPanel1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1023, 643);
-            this.Controls.Add(this.exportXML);
             this.Controls.Add(this.csvGridView);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.exportXML);
             this.Controls.Add(this.csvPath);
             this.Controls.Add(this.btUpload);
             this.Controls.Add(this.btBrowse);
@@ -140,5 +155,6 @@
         private DataGridView csvGridView;
         private Button exportXML;
         private Button button1;
+        private FlowLayoutPanel flowLayoutPanel1;
     }
 }
