@@ -49,7 +49,7 @@ namespace Convert_CSV_to_XML
             try
             {
                 DataTable dt = (DataTable)csvGridView.DataSource;
-                dt.TableName = "CSV";
+                dt.TableName = "Facturi";
                 dt.WriteXml(@"C:\Users\Public\CSV.xml");
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace Convert_CSV_to_XML
 
                 foreach(string column in colFields)
                 {
-                    if (column == "Number" || column == "Status" || column == "Createddate" || column == "Duedate" || column == "Total" || column == "Taxes" || column == "Discount" || column == "Amountpaid" || column == "Amountdue" || column == "Organizationname" || column == "Clientname" || column == "Organizationaddress" || column == "Clientaddress" || column == "Organizationregistrationnumber" || column == "Organizationtaxid")
+                    if (column == "Number" || column == "Status" || column == "Created date" || column == "Due date" || column == "Total" || column == "Taxes" || column == "Discount" || column == "Amount paid" || column == "Amount due" || column == "Organization name" || column == "Client name" || column == "Organization address" || column == "Client address" || column == "Organization registration number" || column == "Organization tax id")
                     {
                         DataColumn datecolumn = new DataColumn(column);
                         datecolumn.AllowDBNull = true;
