@@ -58,7 +58,7 @@
             this.btBrowse.TabIndex = 1;
             this.btBrowse.Text = "Browse";
             this.btBrowse.UseVisualStyleBackColor = true;
-            this.btBrowse.Click += new System.EventHandler(this.btBrowse_Click);
+            this.btBrowse.Click += new System.EventHandler(this.BtnBrowse_Click);
             // 
             // btUpload
             // 
@@ -69,7 +69,7 @@
             this.btUpload.TabIndex = 2;
             this.btUpload.Text = "Upload CSV";
             this.btUpload.UseVisualStyleBackColor = true;
-            this.btUpload.Click += new System.EventHandler(this.btUpload_Click);
+            this.btUpload.Click += new System.EventHandler(this.BtnUpload_Click);
             // 
             // csvPath
             // 
@@ -103,7 +103,7 @@
             this.exportXML.TabIndex = 5;
             this.exportXML.Text = "Export to XML";
             this.exportXML.UseVisualStyleBackColor = true;
-            this.exportXML.Click += new System.EventHandler(this.btExport_Click);
+            this.exportXML.Click += new System.EventHandler(this.BtnExport_Click);
             // 
             // button1
             // 
