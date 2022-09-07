@@ -97,7 +97,7 @@ namespace Convert_CSV_to_XML
                                         new XElement("Continut",
                                             new XElement("Linie",
                                                 new XElement("LinieNrCrt", row.Field<string>("nr_iesire")),
-                                                new XElement("Descriere"),
+                                                new XElement("Descriere", "denumire"),
                                                 new XElement("CodArticolFurnizor"),
                                                 new XElement("CodArticolClient"),
                                                 new XElement("CodBare"),
