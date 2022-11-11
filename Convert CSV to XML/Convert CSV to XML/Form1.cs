@@ -64,7 +64,7 @@ namespace Convert_CSV_to_XML
                     {
                         DataTable dt = (DataTable)csvGridView.DataSource;
 
-                        // numar_iesire, data, scadent, total, denumire, inf_suplm
+                        // numar_iesire, data, scadent, total, denumire, inf_suplm, TVA (19% din total)
 
                         XElement xe = new("Facturi",
                             from row in dt.AsEnumerable()
