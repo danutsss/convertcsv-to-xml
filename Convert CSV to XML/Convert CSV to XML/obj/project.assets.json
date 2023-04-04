@@ -1,11 +1,52 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "CsvHelper/30.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CsvHelper/30.0.1": {
+      "sha512": "rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "type": "package",
+      "path": "csvhelper/30.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.30.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "CsvHelper >= 30.0.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\matei\\.nuget\\packages\\": {}
@@ -13,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\Convert CSV to XML.csproj",
+      "projectUniqueName": "F:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\Convert CSV to XML.csproj",
       "projectName": "Convert CSV to XML",
-      "projectPath": "D:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\Convert CSV to XML.csproj",
+      "projectPath": "F:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\Convert CSV to XML.csproj",
       "packagesPath": "C:\\Users\\matei\\.nuget\\packages\\",
-      "outputPath": "D:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\obj\\",
+      "outputPath": "F:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +86,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CsvHelper": {
+            "target": "Package",
+            "version": "[30.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -64,7 +111,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

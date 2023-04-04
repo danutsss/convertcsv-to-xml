@@ -14,4 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Convert_CSV_to_XML
-build_property.ProjectDir = D:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\
+build_property.ProjectDir = F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\

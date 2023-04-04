@@ -64,7 +64,7 @@ namespace Convert_CSV_to_XML
                     {
                         DataTable dt = (DataTable)csvGridView.DataSource;
 
-                        // numar_iesire, data, scadent, total, denumire, inf_suplm, TVA (19% din total)
+                        // numar_iesire, data, scadent, total, denumire, inf_suplm, TVA (19% din total), CNP
 
                         XElement xe = new("Facturi",
                             from row in dt.AsEnumerable()
@@ -79,8 +79,8 @@ namespace Convert_CSV_to_XML
                                         new XElement("FurnizorIBAN"),
                                         new XElement("FurnizorInformatiiSuplimentare", "Tel. 0241700000 Email stefan@sel.ro"),
                                         new XElement("ClientNume", row.Field<string>("denumire")),
-                                        new XElement("ClientInformatiiSuplimentare"),
-                                        new XElement("ClientCIF"),
+                                        new XElement("ClientInformatiiSuplimentare", row.Field<string>("inf_suplm")),
+                                        new XElement("ClientCIF", row.Field<string>("CNP / CUI")),
                                         new XElement("ClientNrRegCom"),
                                         new XElement("ClientTara", "RO"),
                                         new XElement("ClientAdresa"),
@@ -97,7 +97,7 @@ namespace Convert_CSV_to_XML
                                         new XElement("Continut",
                                             new XElement("Linie",
                                                 new XElement("LinieNrCrt", row.Field<string>("nr_iesire")),
-                                                new XElement("Descriere", "denumire"),
+                                                new XElement("Descriere", row.Field<string>("denumire")),
                                                 new XElement("CodArticolFurnizor"),
                                                 new XElement("CodArticolClient"),
                                                 new XElement("CodBare"),
@@ -114,7 +114,7 @@ namespace Convert_CSV_to_XML
                                         new XElement("Total", row.Field<string>("total"))),
                                     new XElement("Observatii",
                                         new XElement("txtObservatii"),
-                                        new XElement("SoldClient")) ));
+                                        new XElement("SoldClient"))));
                         xe.Save(sfd.FileName);
 
                         MessageBox.Show("File saved successfully", "Export to XML", MessageBoxButtons.OK,
@@ -142,7 +142,7 @@ namespace Convert_CSV_to_XML
                 csvReader.HasFieldsEnclosedInQuotes = true;
 
                 //Read columns from CSV file, remove this line if columns not exits  
-                string[] colFields = csvReader.ReadFields();
+                string[] colFields = csvReader.ReadFields() ?? throw new Exception("null");
 
                 for (int i = 0; i < colFields.Length; i++)
                 {
@@ -156,7 +156,7 @@ namespace Convert_CSV_to_XML
 
                 while (!csvReader.EndOfData)
                 {
-                    string[] fieldData = csvReader.ReadFields();
+                    string[] fieldData = csvReader.ReadFields() ?? throw new Exception("null");
                     //Making empty value as null
 
                     if(fieldData is not null) {
@@ -164,7 +164,7 @@ namespace Convert_CSV_to_XML
                         {
                             if (fieldData[i] == "")
                             {
-                                fieldData[i] = null;
+                                fieldData[i] = "";
                             }
                         }
                         csvData.Rows.Add(fieldData);

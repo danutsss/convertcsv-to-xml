@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sWhclRjidX0tFF8PYTCWu7266F/BKcDonOP1XHNQV5z1VRQOvzoReTr7LfTsYhBROVA+oWB7tJUKTQuv3PScWw==",
+  "dgSpecHash": "RI3ZbURVFpSDowZv4WqeMqysVEXdqn9s/2ftbUtKqJgnR8ASjycSIRPN8277sxIYIRPEHc9QfTM7R5R0pz/BVA==",
   "success": true,
-  "projectFilePath": "D:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\Convert CSV to XML.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\convertcsv-to-xml\\Convert CSV to XML\\Convert CSV to XML\\Convert CSV to XML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matei\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
