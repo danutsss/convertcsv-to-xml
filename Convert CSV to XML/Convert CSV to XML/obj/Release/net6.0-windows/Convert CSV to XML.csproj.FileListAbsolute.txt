@@ -1,0 +1,19 @@
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\release\net6.0-windows\Convert CSV to XML.exe
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\release\net6.0-windows\Convert CSV to XML.deps.json
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\release\net6.0-windows\Convert CSV to XML.runtimeconfig.json
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\release\net6.0-windows\Convert CSV to XML.dll
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\release\net6.0-windows\Convert CSV to XML.pdb
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\bin\release\net6.0-windows\CsvHelper.dll
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.csproj.AssemblyReference.cache
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert_CSV_to_XML.Form1.resources
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.csproj.GenerateResource.cache
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.GeneratedMSBuildEditorConfig.editorconfig
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.AssemblyInfoInputs.cache
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.AssemblyInfo.cs
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.csproj.CoreCompileInputs.cache
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.csproj.CopyComplete
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.dll
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\refint\Convert CSV to XML.dll
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.pdb
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\Convert CSV to XML.genruntimeconfig.cache
+F:\convertcsv-to-xml\Convert CSV to XML\Convert CSV to XML\obj\release\net6.0-windows\ref\Convert CSV to XML.dll
